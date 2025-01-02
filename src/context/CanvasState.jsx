@@ -11,7 +11,7 @@ const CanvasState = (props) => {
 
   const [result, setResult] = useState(null);
 
-  const URL = "http://localhost:8900/calculate";
+  const URL = import.meta.env.VITE_URL;
 
   const [error, setError] = useState(null);
 
